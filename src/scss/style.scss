@@ -1,0 +1,19 @@
+body {
+	background-color: blanchedalmond;
+	span {
+		color: brown;
+	}
+	background: url('@img/death-star.png') 0 0 no-repeat;
+}
+
+@media screen and (max-width: 768px) {
+	span {
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	body {
+		background-color: cadetblue;
+	}
+}
